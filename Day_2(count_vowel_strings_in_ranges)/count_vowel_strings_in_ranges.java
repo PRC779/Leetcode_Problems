@@ -11,7 +11,7 @@ class Solution {
 	vowelCount[i] = count;
 	}
 	for(int i=0; i<len; i++){
-	int CountInRange = vowelCount[queries[i][1]];
+	int countInRange = vowelCount[queries[i][1]];
 	if(queries[i][0]-1>=0) countInRange -= vowelCount[queries[i][0]];
 	if(countInRange>0) res[i] = countInRange;
 	}
