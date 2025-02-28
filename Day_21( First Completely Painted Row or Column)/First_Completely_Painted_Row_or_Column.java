@@ -12,7 +12,7 @@ class Solution {
         map[a][1] = j;
       }
     }
-    for (var i=0; i < arr.length; i++) {
+    for (var i=0; i < arr.length; i++){
       var a = arr[i] - 1;
       rows[map[a][0]]++;
       cols[map[a][1]]++;      
