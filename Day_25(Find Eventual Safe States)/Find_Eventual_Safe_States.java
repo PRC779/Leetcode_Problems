@@ -1,5 +1,5 @@
 class Solution {
-    public List<Integer> eventualSafeNodes(int[][] graph) {
+    public List<Integer> eventualSafeNodes(int[][] graph){
         List<Integer> res = new ArrayList<>();
         if(graph == null || graph.length == 0)  return res;
         int nodeCountlen = graph.length;
