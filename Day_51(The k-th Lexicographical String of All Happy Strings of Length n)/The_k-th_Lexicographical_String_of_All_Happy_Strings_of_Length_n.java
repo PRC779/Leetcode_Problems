@@ -1,5 +1,5 @@
 class Solution {
-    public String getHappyString(int n, int k) {
+    public String getHappyString(int n, int k){
         List<String> l = new ArrayList<>();
         char[] c = {'a', 'b', 'c'};
         generateHappyStrings(n, new StringBuilder(), l, c);
