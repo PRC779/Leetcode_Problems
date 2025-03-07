@@ -1,5 +1,5 @@
 class Solution {
-    public int[][] highestPeak(int[][] isWater) {
+    public int[][] highestPeak(int[][] isWater){
         int n=isWater.length;
         int m=isWater[0].length;
         int temp[][]=new int[n][m];
