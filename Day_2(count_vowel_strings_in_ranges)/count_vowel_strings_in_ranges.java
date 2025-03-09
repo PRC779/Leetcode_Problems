@@ -16,7 +16,7 @@ class Solution {
 	if(countInRange>0) res[i] = countInRange;
 	}
      return res;
-    }
+   }
 public boolean isVowel(char ch){
 return ch=='a' || ch=='e' || ch=='i' ||ch=='o' ||ch=='u';
 	}
