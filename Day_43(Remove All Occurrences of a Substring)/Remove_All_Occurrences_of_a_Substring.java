@@ -1,5 +1,5 @@
 class Solution {
-    public String removeOccurrences(String s, String part) {
+    public String removeOccurrences(String s, String part){
         while(s.contains(part)){
             int i = s.indexOf(part);
             int len = part.length();
