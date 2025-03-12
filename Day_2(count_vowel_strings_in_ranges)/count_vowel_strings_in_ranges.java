@@ -1,4 +1,4 @@
-class Solution {
+class Solution{
 	public int[] vowelStrings(String[] words, int [][]queries){
 	int n = words.length;
 	int len = queries.length;
